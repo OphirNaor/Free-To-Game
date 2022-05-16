@@ -1,0 +1,25 @@
+@media screen and (max-width: 1232px) {
+    .game-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .game-preview {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .game-list {
+        grid-template-columns: 1fr;
+    }
+
+    .game-preview {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .game-preview {
+        width: 300px;
+    }
+}
